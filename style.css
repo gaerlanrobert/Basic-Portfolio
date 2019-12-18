@@ -1,0 +1,156 @@
+body {
+    background-image: url(/Users/robertgaerlan/Desktop/Basic-Portfolio/assets/images/PROFPHOTO.jpeg); 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.nav-btn-border {
+    border-right: solid 1px #cccccc;
+    padding-right: 20px;
+}
+
+.headcont {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    border-bottom: solid 2px;
+    border-color: #cccccc;
+    padding: 0;
+    background: #ffffff;
+}
+
+.thumbnail { 
+    margin-top: 30px;
+    margin-left: -30px;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    padding-bottom: 0;
+    padding-top: 0;
+    position: relative;
+    float: left;
+}
+
+.container {
+    overflow: hidden;
+    position: relative;
+    border: solid 1px #cccccc;
+    padding:30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width:  900px;
+    background-color: #ffffff;
+}
+
+p {
+    padding-top: 20px;
+    line-height: 2;
+}
+
+#bio-image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    padding-top: 30px;
+} 
+
+footer, #pfoot {
+    text-align: center;
+    color: #cccccc;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    border-top: solid;
+    border-top-width: 5px;
+    border-top-color: #4aaaa5;
+    padding: 20px;
+    background: #666666;
+}
+
+#pfoot {
+    position: relative;
+}
+
+hr {
+    border: 1px solid #dddddd;
+}
+
+h1, h2 {
+    font-weight: bold;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imgtag {
+    bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    width: 260px;
+    padding: 20px;
+    background: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+ul li {
+    margin-left: 20px;
+    display: inline-block; 
+}
+
+#nav {
+    padding: 30px 0px 30px;
+    margin-top: -100px;
+    font-size: 18px;
+    float: right;
+}
+
+#logo {
+    text-align: center;
+    padding: 20px;
+    width: 19%;
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
+input[type=text], select, textarea {
+    margin-left: 0px;
+    width: 894px;
+    box-sizing: content-box;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #40928e;
+}
+
+form {
+    padding-top: 30px;
+}
